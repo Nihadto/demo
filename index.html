@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script defer src="app.js"></script>
 </head>
+
 <body>
     <div class="container">
 
-        <h1>hi</h1>
+
         <header class="app-header">
-            <h1>nihad</h1>
+            <h1>My Tasks</h1>
 
             <p class="date-display" id="dateDisplay"></p>
         </header>
@@ -23,7 +25,11 @@
         <div class="input-group">
             <input type="text" id="taskInput" placeholder="Add a new task..." aria-label="New task input">
             <button id="addTaskBtn" aria-label="Add task">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
             </button>
         </div>
 
@@ -43,4 +49,5 @@
         document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString('en-US', options);
     </script>
 </body>
+
 </html>
